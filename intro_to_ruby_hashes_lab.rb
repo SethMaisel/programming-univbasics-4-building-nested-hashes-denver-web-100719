@@ -8,7 +8,8 @@ end
 
 def monopoly_with_third_tier
   monopoly = {:railroads => {:rent_in_dollars => 
-  {:one_piece => {}, :two_pieces => {}, :three_pieces => {}, :four_pieces => {}}, :names => {
+  {:one_piece_owned => 25, :two_pieces => {}, :three_pieces => {}, :four_pieces => {}}, 
+  :names => {
     :railroads1 => {}, :railroads2 => {}, :railroads3 => {}, :railroads4 => {}
   }}}
 end
